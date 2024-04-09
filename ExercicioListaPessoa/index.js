@@ -14,7 +14,7 @@ const generateId = () => {
   return uuidv4();
 };
 
-// Rota para recuperar todas as pessoas
+// Rota para recuperar todas as pessoa
 app.get('/pessoas', (req, res) => {
   res.json(pessoas);
 });
