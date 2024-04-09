@@ -6,7 +6,7 @@ const PORT = 3002;
 // Middleware para o Express aceitar JSON
 app.use(express.json());
 
-// Array para armazenar as pessoas
+// Array para armazenar as pessoa
 let pessoas = [];
 
 // Função para gerar um ID único
